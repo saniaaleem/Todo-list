@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial';
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    background: white;
+    width: 400px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h2 {
+    color: #ee4b6a;
+    margin-bottom: 15px;
+}
+
+.input-area {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #ee9ca7;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.add-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+.add-btn:hover {
+    background-color: #45a049;
+}
+
+.reset-btn {
+    background-color: #ff4b5c;
+    color: white;
+}
+.reset-btn:hover {
+    background-color: #e04350;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #ffe6e9;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background: #ee4b6a;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+li button:hover {
+    background: #d43b5a;
+}
